@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80669CB62069539B008B9014 /* CodableAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80669CB52069539B008B9014 /* CodableAlamofire.framework */; };
+		80669CB8206953DD008B9014 /* UserRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80669CB7206953DD008B9014 /* UserRemoteDataSource.swift */; };
+		80669CBA20695720008B9014 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80669CB920695720008B9014 /* UserTableViewCell.swift */; };
+		80669CBB20695720008B9014 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80669CB920695720008B9014 /* UserTableViewCell.swift */; };
 		8072707220657B3E00FFF606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072707120657B3E00FFF606 /* AppDelegate.swift */; };
-		8072707420657B3E00FFF606 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072707320657B3E00FFF606 /* ViewController.swift */; };
+		8072707420657B3E00FFF606 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072707320657B3E00FFF606 /* MainViewController.swift */; };
 		8072707720657B3E00FFF606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8072707520657B3E00FFF606 /* Main.storyboard */; };
 		8072707A20657B3E00FFF606 /* iOS_Repository_Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8072707820657B3E00FFF606 /* iOS_Repository_Example.xcdatamodeld */; };
 		8072707C20657B3E00FFF606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8072707B20657B3E00FFF606 /* Assets.xcassets */; };
 		8072707F20657B3E00FFF606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8072707D20657B3E00FFF606 /* LaunchScreen.storyboard */; };
 		8072708A20657B3E00FFF606 /* iOS_Repository_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072708920657B3E00FFF606 /* iOS_Repository_ExampleTests.swift */; };
+		8072709720657B6500FFF606 /* UserDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072709620657B6500FFF606 /* UserDataSource.swift */; };
+		8072709920657B7D00FFF606 /* UserLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072709820657B7D00FFF606 /* UserLocalDataSource.swift */; };
+		8072709D20657B9600FFF606 /* UserRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072709C20657B9600FFF606 /* UserRepo.swift */; };
+		807270A62065834600FFF606 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807270A02065834500FFF606 /* Alamofire.framework */; };
+		807270A82065834600FFF606 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807270A22065834500FFF606 /* AlamofireImage.framework */; };
+		807270AD206587F400FFF606 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807270AC206587F400FFF606 /* User.swift */; };
+		807270B420658BE400FFF606 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807270B320658BE400FFF606 /* MainPresenter.swift */; };
+		807270BC20659D3E00FFF606 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807270BB20659D3E00FFF606 /* MainView.swift */; };
+		807270BD2065A44400FFF606 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807270A42065834500FFF606 /* RxBlocking.framework */; };
+		807270BE2065A44400FFF606 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807270A32065834500FFF606 /* RxCocoa.framework */; };
+		807270BF2065A44400FFF606 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8072709F2065834500FFF606 /* RxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		80669CB52069539B008B9014 /* CodableAlamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CodableAlamofire.framework; path = Carthage/Build/iOS/CodableAlamofire.framework; sourceTree = "<group>"; };
+		80669CB7206953DD008B9014 /* UserRemoteDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRemoteDataSource.swift; sourceTree = "<group>"; };
+		80669CB920695720008B9014 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		8072706E20657B3E00FFF606 /* iOS Repository Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Repository Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8072707120657B3E00FFF606 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8072707320657B3E00FFF606 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8072707320657B3E00FFF606 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8072707620657B3E00FFF606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8072707920657B3E00FFF606 /* iOS_Repository_Example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_Repository_Example.xcdatamodel; sourceTree = "<group>"; };
 		8072707B20657B3E00FFF606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +56,18 @@
 		8072708520657B3E00FFF606 /* iOS Repository ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Repository ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8072708920657B3E00FFF606 /* iOS_Repository_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Repository_ExampleTests.swift; sourceTree = "<group>"; };
 		8072708B20657B3E00FFF606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8072709620657B6500FFF606 /* UserDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataSource.swift; sourceTree = "<group>"; };
+		8072709820657B7D00FFF606 /* UserLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocalDataSource.swift; sourceTree = "<group>"; };
+		8072709C20657B9600FFF606 /* UserRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepo.swift; sourceTree = "<group>"; };
+		8072709F2065834500FFF606 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		807270A02065834500FFF606 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		807270A12065834500FFF606 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		807270A22065834500FFF606 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		807270A32065834500FFF606 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		807270A42065834500FFF606 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		807270AC206587F400FFF606 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		807270B320658BE400FFF606 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		807270BB20659D3E00FFF606 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +75,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				807270A62065834600FFF606 /* Alamofire.framework in Frameworks */,
+				807270A82065834600FFF606 /* AlamofireImage.framework in Frameworks */,
+				80669CB62069539B008B9014 /* CodableAlamofire.framework in Frameworks */,
+				807270BD2065A44400FFF606 /* RxBlocking.framework in Frameworks */,
+				807270BE2065A44400FFF606 /* RxCocoa.framework in Frameworks */,
+				807270BF2065A44400FFF606 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +100,7 @@
 				8072707020657B3E00FFF606 /* iOS Repository Example */,
 				8072708820657B3E00FFF606 /* iOS Repository ExampleTests */,
 				8072706F20657B3E00FFF606 /* Products */,
+				8072709E2065834500FFF606 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,9 +116,11 @@
 		8072707020657B3E00FFF606 /* iOS Repository Example */ = {
 			isa = PBXGroup;
 			children = (
+				807270AE20658B9300FFF606 /* screens */,
+				8072709420657B4B00FFF606 /* data */,
 				8072707120657B3E00FFF606 /* AppDelegate.swift */,
-				8072707320657B3E00FFF606 /* ViewController.swift */,
 				8072707520657B3E00FFF606 /* Main.storyboard */,
+				80669CB920695720008B9014 /* UserTableViewCell.swift */,
 				8072707B20657B3E00FFF606 /* Assets.xcassets */,
 				8072707D20657B3E00FFF606 /* LaunchScreen.storyboard */,
 				8072708020657B3E00FFF606 /* Info.plist */,
@@ -99,6 +138,66 @@
 			path = "iOS Repository ExampleTests";
 			sourceTree = "<group>";
 		};
+		8072709420657B4B00FFF606 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				807270AB206587E200FFF606 /* model */,
+				8072709520657B5500FFF606 /* user */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		8072709520657B5500FFF606 /* user */ = {
+			isa = PBXGroup;
+			children = (
+				8072709620657B6500FFF606 /* UserDataSource.swift */,
+				8072709820657B7D00FFF606 /* UserLocalDataSource.swift */,
+				80669CB7206953DD008B9014 /* UserRemoteDataSource.swift */,
+				8072709C20657B9600FFF606 /* UserRepo.swift */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		8072709E2065834500FFF606 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80669CB52069539B008B9014 /* CodableAlamofire.framework */,
+				807270A02065834500FFF606 /* Alamofire.framework */,
+				807270A22065834500FFF606 /* AlamofireImage.framework */,
+				807270A42065834500FFF606 /* RxBlocking.framework */,
+				807270A32065834500FFF606 /* RxCocoa.framework */,
+				8072709F2065834500FFF606 /* RxSwift.framework */,
+				807270A12065834500FFF606 /* RxTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		807270AB206587E200FFF606 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				807270AC206587F400FFF606 /* User.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		807270AE20658B9300FFF606 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				807270AF20658B9900FFF606 /* main */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		807270AF20658B9900FFF606 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				8072707320657B3E00FFF606 /* MainViewController.swift */,
+				807270B320658BE400FFF606 /* MainPresenter.swift */,
+				807270BB20659D3E00FFF606 /* MainView.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,6 +208,7 @@
 				8072706A20657B3D00FFF606 /* Sources */,
 				8072706B20657B3D00FFF606 /* Frameworks */,
 				8072706C20657B3D00FFF606 /* Resources */,
+				807270C12065A46400FFF606 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -197,14 +297,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		807270C12065A46400FFF606 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CodableAlamofire.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8072706A20657B3D00FFF606 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8072707A20657B3E00FFF606 /* iOS_Repository_Example.xcdatamodeld in Sources */,
-				8072707420657B3E00FFF606 /* ViewController.swift in Sources */,
+				8072709720657B6500FFF606 /* UserDataSource.swift in Sources */,
+				80669CBA20695720008B9014 /* UserTableViewCell.swift in Sources */,
+				8072707420657B3E00FFF606 /* MainViewController.swift in Sources */,
+				807270BC20659D3E00FFF606 /* MainView.swift in Sources */,
+				807270B420658BE400FFF606 /* MainPresenter.swift in Sources */,
+				807270AD206587F400FFF606 /* User.swift in Sources */,
+				8072709D20657B9600FFF606 /* UserRepo.swift in Sources */,
 				8072707220657B3E00FFF606 /* AppDelegate.swift in Sources */,
+				8072709920657B7D00FFF606 /* UserLocalDataSource.swift in Sources */,
+				80669CB8206953DD008B9014 /* UserRemoteDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80669CBB20695720008B9014 /* UserTableViewCell.swift in Sources */,
 				8072708A20657B3E00FFF606 /* iOS_Repository_ExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +489,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "iOS Repository Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.mcnallydawes.iOS-Repository-Example";
@@ -372,6 +507,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "iOS Repository Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.mcnallydawes.iOS-Repository-Example";
